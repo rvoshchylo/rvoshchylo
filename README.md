@@ -101,15 +101,6 @@ X-Handled-By: ruslan-voshchylo
 + 2015 → 2020   Junior Specialist · Computer Engineering   Technical College of TNTU
 ```
 
-### `GET /metrics`
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rvoshchylo/rvoshchylo/output/snake.svg" width="100%" alt="Contribution graph being eaten by a snake" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=rvoshchylo&background=0b1020&ring=8b7bff&fire=ff7ab2&currStreakLabel=3ddc97&sideLabels=8b7bff&currStreakNum=e6e9f5&sideNums=e6e9f5&dates=7d89b0&stroke=26304f&hide_border=true" alt="Contribution streak" />
-</p>
-
 ---
 
 <p align="center">
