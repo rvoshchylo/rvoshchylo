@@ -175,7 +175,7 @@ const ruslan = {
 ---
 
 <p align="center">
-  <i>💬 Open to interesting backend / full-stack work — especially payments, billing and integrations.</i>
+  <i>💬 Open to backend / full-stack roles — especially payments, billing and integrations. Let's talk!</i>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:635bff,50:1e3a8a,100:0f172a&height=120&section=footer" width="100%" alt="" />
