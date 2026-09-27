@@ -1,181 +1,117 @@
-<!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:635bff&height=200&section=header&text=Ruslan%20Voshchylo&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Backend-leaning&descAlignY=58&descSize=18" alt="Ruslan Voshchylo" />
+  <img src="./assets/terminal.svg" width="100%" alt="$ whoami — Ruslan Voshchylo, Full-Stack Developer (backend-leaning). Payments, subscription billing, integrations that fail loudly, not silently." />
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=800&color=635BFF&center=true&vCenter=true&width=640&lines=Payments+%C2%B7+Billing+%C2%B7+Integrations;NestJS+%2B+PostgreSQL+%2B+AWS+%2B+Terraform;Idempotent+webhooks+%26+explicit+state+machines;Systems+that+fail+loudly%2C+not+silently" alt="Typing SVG" />
-  </a>
+  <a href="mailto:ruslan.voshchylo2@gmail.com"><img src="https://img.shields.io/badge/POST-%2Femail-3ddc97?style=for-the-badge&labelColor=0b1020&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/ruslan-voshchylo-5060522a9/"><img src="https://img.shields.io/badge/GET-%2Flinkedin-8b7bff?style=for-the-badge&labelColor=0b1020&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://t.me/rvoshchylo"><img src="https://img.shields.io/badge/WS-%2Ftelegram-26A5E4?style=for-the-badge&labelColor=0b1020&logo=telegram&logoColor=white" alt="Telegram" /></a>
 </p>
 
 <p align="center">
-  <a href="mailto:ruslan.voshchylo2@gmail.com"><img src="https://img.shields.io/badge/Email-ruslan.voshchylo2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/ruslan-voshchylo-5060522a9/"><img src="https://img.shields.io/badge/LinkedIn-Ruslan%20Voshchylo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://t.me/rvoshchylo"><img src="https://img.shields.io/badge/Telegram-@rvoshchylo-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/📍%20Ternopil,%20Ukraine-Remote-1e3a8a?style=flat-square" alt="Location" />
-  <img src="https://img.shields.io/badge/English-B2-635bff?style=flat-square" alt="English B2" />
-  <img src="https://img.shields.io/badge/MSc-Cybersecurity%20(in%20progress)-0f172a?style=flat-square" alt="MSc Cybersecurity" />
-  <a href="https://github.com/rvoshchylo"><img src="https://komarev.com/ghpvc/?username=rvoshchylo&style=flat-square&color=635bff&label=Profile+views" alt="Profile views" /></a>
+  <img src="https://img.shields.io/badge/status-open_to_offers-3ddc97?style=flat-square&labelColor=0b1020" alt="Open to offers" />
+  <img src="https://img.shields.io/badge/region-Ternopil,_UA_·_remote-8b7bff?style=flat-square&labelColor=0b1020" alt="Ternopil, Ukraine · remote" />
+  <img src="https://img.shields.io/badge/english-B2-ffcb6b?style=flat-square&labelColor=0b1020" alt="English B2" />
+  <img src="https://komarev.com/ghpvc/?username=rvoshchylo&style=flat-square&color=ff7ab2&label=requests" alt="Profile views" />
 </p>
 
 ---
 
-## 👋 About me
+### `GET /about`
 
-I'm a **full-stack developer** focused on production systems where **money moves** — payment flows,
-subscription billing, and integrations that *fail loudly rather than silently*.
-
-```ts
-const ruslan = {
-  role: "Full-Stack Developer",
-  company: "SoftKit",
-  location: "Ternopil, Ukraine · Remote",
-  focus: ["Payments", "Subscription billing", "Third-party integrations", "LLM-backed features"],
-  backend: ["NestJS", "Node.js", "TypeORM", "Prisma", "PostgreSQL"],
-  frontend: ["React", "TypeScript", "Zustand", "Tailwind CSS"],
-  cloud: ["AWS (SQS, Lambda)", "Terraform", "Docker", "GitHub Actions"],
-  currentlyLearning: "MSc in Cybersecurity",
-  principles: ["Idempotency first", "Explicit state machines", "Observability over optimism"],
-};
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Handled-By: ruslan-voshchylo
+```
+```jsonc
+{
+  "role": "Full-Stack Developer",          // backend-leaning
+  "currently": "SoftKit",                   // 07/2025 → now
+  "domain": ["payments", "subscription billing", "integrations"],
+  "beliefs": [
+    "every webhook will be delivered twice — handle it once",
+    "state transitions are explicit or they are bugs",
+    "if it fails, it should fail loudly"
+  ],
+  "also_ships": "LLM-backed features with structured output + graceful degradation",
+  "studying": "MSc Cybersecurity"
+}
 ```
 
-- 💳 Built a **Stripe billing layer** with idempotent webhook handling, promo codes, refunds and automated invoicing
-- 🔁 Designed a **payment service driven by an explicit state machine** (Safepay v2 migration with zero downtime)
-- 🛡️ Built a **car insurance module from scratch** under **PCI DSS** constraints
-- 🤖 Ship **LLM-backed product features** — OpenAI content generation with structured output parsing and graceful degradation
-- 🔐 Currently completing an **MSc in Cybersecurity**
+### `GET /career` &nbsp;<sub>— modelled the only way I know: as a state machine</sub>
+
+<p align="center">
+  <img src="./assets/career.svg" width="100%" alt="Career state machine: INIT (2015, Computer Engineering) → SECURED (2022, BSc Cybersecurity) → SHIPPED (2024, VISO) → CAPTURED (2025, SoftKit, payments) → NEXT (your team?)" />
+</p>
 
 ---
 
-## 🛠️ Tech stack
-
-### Backend
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,ts,postgres,prisma&theme=dark" alt="Backend" />
-</p>
-
-![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI%2FSwagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-![Passport](https://img.shields.io/badge/Passport.js-34E27A?style=flat-square&logo=passport&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![REST](https://img.shields.io/badge/REST%20APIs-1e3a8a?style=flat-square)
-
-### Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,styledcomponents&theme=dark" alt="Frontend" />
-</p>
-
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white)
-![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
-![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white)
-![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=flat-square)
-![dnd-kit](https://img.shields.io/badge/dnd--kit-111827?style=flat-square)
-
-### Cloud & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions&theme=dark" alt="Cloud & DevOps" />
-</p>
-
-![AWS SQS](https://img.shields.io/badge/AWS%20SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-### Integrations
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![Safepay](https://img.shields.io/badge/Safepay-0f172a?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
-![Pipedrive](https://img.shields.io/badge/Pipedrive%20CRM-017737?style=flat-square)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
-![SendGrid](https://img.shields.io/badge/SendGrid-1A82E2?style=flat-square)
-![Slack API](https://img.shields.io/badge/Slack%20API-4A154B?style=flat-square&logo=slack&logoColor=white)
-![Uppy/S3](https://img.shields.io/badge/Uppy%20%2F%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
-
-### Testing & Tooling
-<p>
-  <img src="https://skillicons.dev/icons?i=jest,vitest,git&theme=dark" alt="Testing & Tooling" />
-</p>
-
-![Claude Code](https://img.shields.io/badge/AI--assisted%20dev-Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-
----
-
-## 💼 Experience
+### `GET /events?limit=2` &nbsp;<sub>— experience, as a webhook log</sub>
 
 <details open>
-<summary><b>🚗 SoftKit</b> — Full-Stack Developer · <i>07/2025 – Present</i></summary>
+<summary><code>🟢 role.active</code> &nbsp;<b>SoftKit</b> — Full-Stack Developer &nbsp;·&nbsp; <i>07/2025 → present</i></summary>
 <br />
 
-- **Vehicle sales flow (v2)** — Safepay v2 migration, deal payment service with **state machine transitions**,
-  financing & manual payment support, v1 backward compatibility for **zero-downtime migration**
-- **Car insurance module from scratch** — external API integration, Stripe checkout/webhooks, certificates,
-  admin invoicing panel (**PCI DSS compliant**)
-- **Stripe billing** — subscriptions, promo codes, refunds, **idempotent webhook handling**, automated invoice generation
-- **Integrations** — bidirectional **Pipedrive CRM** sync, **Twilio** SMS notifications,
-  email/IP deliverability monitoring (Spamhaus, IPQS) with **Slack** alerting
-- **Background jobs** for ownership monitoring, debt checking and auto-delisting — offloading heavy operations from the request cycle
-- **Admin & deal management tools** — price adjustment flows, document uploads, user verification, invoicing
-- **Frontend modules** — insurance purchase flow, multi-step deal stepper, subscription UI,
-  image editor (crop, rotate, drag-and-drop)
-- **Platform health** — introduced **Vitest** into the CI/CD pipeline; upgraded **Node.js 20 → 24** with Terraform updates,
-  closing CVEs and improving runtime performance
+| `event.type` | What happened |
+| --- | --- |
+| `payment.flow.migrated` | Vehicle sales flow **v2**: Safepay v2 migration, deal payment service on an **explicit state machine**, financing & manual payments, **zero-downtime** v1 compatibility |
+| `insurance.module.created` | Car insurance **from scratch**: external API, Stripe checkout & webhooks, certificates, admin invoicing — **PCI DSS** compliant |
+| `billing.stripe.integrated` | Subscriptions, promo codes, refunds, **idempotent webhooks**, automated invoices |
+| `crm.sync.bidirectional` | **Pipedrive** two-way sync, **Twilio** SMS, email/IP deliverability monitoring (Spamhaus, IPQS) → **Slack** alerts |
+| `jobs.background.scheduled` | Ownership monitoring, debt checks, auto-delisting — heavy work moved off the request cycle |
+| `admin.tools.shipped` | Price adjustments, document uploads, user verification, invoicing |
+| `frontend.modules.shipped` | Insurance purchase flow, multi-step deal stepper, subscription UI, image editor (crop · rotate · drag-and-drop) |
+| `platform.hardened` | **Vitest** added to CI/CD · **Node 20 → 24** + Terraform updates — CVEs closed, faster runtime |
 
 </details>
 
 <details>
-<summary><b>🎓 VISO</b> — Full-Stack Developer · <i>2024 – 2025 · Lviv, Ukraine</i></summary>
+<summary><code>⚪ role.completed</code> &nbsp;<b>VISO</b> — Full-Stack Developer &nbsp;·&nbsp; <i>2024 → 2025 · Lviv</i></summary>
 <br />
 
-**Teach Aid** — AI-powered collaboration platform for teachers and students
-- AI-assisted assignment generation on the **OpenAI API** — prompt design, structured output parsing,
-  fallback handling for malformed or failed responses
-- **NestJS** authentication (JWT, refresh tokens); RESTful CRUD API with **Prisma** + **PostgreSQL**
-- Role-based access control, multi-school support and class management
-- Google OAuth and email registration with automatic profile generation
-
-**Tripami** — travel journaling & community platform
-- Responsive platform for travel logs, photo/video uploads and story sharing
-- Auth, media upload pipeline, recommendations and social features (following, sharing tips)
+| `event.type` | What happened |
+| --- | --- |
+| `ai.assignments.generated` | **Teach Aid** — assignment generation on the **OpenAI API**: prompt design, structured output parsing, fallbacks for malformed/failed responses |
+| `auth.implemented` | NestJS auth (JWT + refresh tokens), Google OAuth, email sign-up with auto-generated profiles |
+| `api.crud.shipped` | REST API on **Prisma + PostgreSQL**, RBAC, multi-school support, class management |
+| `social.platform.launched` | **Tripami** — travel journaling & community: media upload pipeline, recommendations, following, sharing tips |
 
 </details>
 
 ---
 
-## 🎓 Education
+### `GET /stack`
 
-| Degree | Institution | Years |
-| --- | --- | --- |
-| 🔐 **Master's Degree in Cybersecurity** | Ternopil Ivan Puluj National Technical University | 2024 – present |
-| 🔐 **Bachelor's Degree in Cybersecurity** | Ternopil Ivan Puluj National Technical University | 2022 – 2024 |
-| 💻 **Junior Specialist, Computer Engineering** | Technical College of Ternopil Ivan Puluj National Technical University | 2015 – 2020 |
-
----
-
-## 📊 GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rvoshchylo&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rvoshchylo&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=rvoshchylo&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rvoshchylo&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" width="100%" />
-</p>
+| layer | tools |
+| :-- | :-- |
+| **backend** | <img src="https://skillicons.dev/icons?i=nodejs,nestjs,ts,postgres,prisma&theme=dark" height="36" alt="Node.js, NestJS, TypeScript, PostgreSQL, Prisma" /><br /><sub>TypeORM · REST · OpenAPI/Swagger · Passport.js · JWT</sub> |
+| **frontend** | <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,styledcomponents&theme=dark" height="36" alt="React, TypeScript, Tailwind, Vite, Styled Components" /><br /><sub>Zustand · React Hook Form · Zod · Ant Design · React Router · Recharts · dnd-kit</sub> |
+| **cloud & ops** | <img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions&theme=dark" height="36" alt="AWS, Terraform, Docker, GitHub Actions" /><br /><sub>SQS · Lambda · CI/CD · Sentry</sub> |
+| **money & messages** | ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white) ![Safepay](https://img.shields.io/badge/Safepay-0b1020?style=flat-square) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white) ![SendGrid](https://img.shields.io/badge/SendGrid-1A82E2?style=flat-square) ![Pipedrive](https://img.shields.io/badge/Pipedrive-017737?style=flat-square) ![Slack](https://img.shields.io/badge/Slack_API-4A154B?style=flat-square&logo=slack&logoColor=white) ![S3](https://img.shields.io/badge/Uppy_/_S3-569A31?style=flat-square&logo=amazons3&logoColor=white) |
+| **quality** | <img src="https://skillicons.dev/icons?i=jest,vitest,git&theme=dark" height="36" alt="Jest, Vitest, Git" /><br /><sub>AI-assisted development with Claude Code</sub> |
 
 ---
 
+### `GET /education`
+
+```diff
++ 2024 → now    MSc · Cybersecurity                        Ternopil Ivan Puluj National Technical University
++ 2022 → 2024   BSc · Cybersecurity                        Ternopil Ivan Puluj National Technical University
++ 2015 → 2020   Junior Specialist · Computer Engineering   Technical College of TNTU
+```
+
+### `GET /metrics`
+
 <p align="center">
-  <i>💬 Open to backend / full-stack roles — especially payments, billing and integrations. Let's talk!</i>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rvoshchylo&bg_color=0b1020&color=8b7bff&line=3ddc97&point=ff7ab2&area=true&area_color=8b7bff&hide_border=true&custom_title=commits%20processed%20per%20day" width="100%" alt="Contribution activity graph" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rvoshchylo&background=0b1020&ring=8b7bff&fire=ff7ab2&currStreakLabel=3ddc97&sideLabels=8b7bff&currStreakNum=e6e9f5&sideNums=e6e9f5&dates=7d89b0&stroke=26304f&hide_border=true" alt="Contribution streak" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:635bff,50:1e3a8a,100:0f172a&height=120&section=footer" width="100%" alt="" />
+---
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="HTTP/1.1 200 OK — safe to re-read this page, it is idempotent" />
+</p>

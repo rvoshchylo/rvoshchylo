@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="70" viewBox="0 0 900 70" role="img" aria-label="Safe to retry: this profile is idempotent">
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:13px;fill:#7d89b0}</style>
+<rect x="1" y="1" width="898" height="68" rx="12" fill="#0b1020" stroke="#26304f"/>
+<text x="450.0" y="31" text-anchor="middle"><tspan fill="#3ddc97">HTTP/1.1 200 OK</tspan>  ·  Idempotency-Key: <tspan fill="#8b7bff">rvoshchylo-profile</tspan>  ·  Retry-After: <tspan fill="#ffcb6b">never needed</tspan></text>
+<text x="450.0" y="52" text-anchor="middle" font-size="12">// safe to re-read this page as many times as you like — side effects: none (except maybe an interview)</text>
+</svg>
