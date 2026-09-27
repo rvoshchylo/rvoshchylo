@@ -104,7 +104,7 @@ X-Handled-By: ruslan-voshchylo
 ### `GET /metrics`
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rvoshchylo&bg_color=0b1020&color=8b7bff&line=3ddc97&point=ff7ab2&area=true&area_color=8b7bff&hide_border=true&custom_title=commits%20processed%20per%20day" width="100%" alt="Contribution activity graph" />
+  <img src="https://raw.githubusercontent.com/rvoshchylo/rvoshchylo/output/snake.svg" width="100%" alt="Contribution graph being eaten by a snake" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=rvoshchylo&background=0b1020&ring=8b7bff&fire=ff7ab2&currStreakLabel=3ddc97&sideLabels=8b7bff&currStreakNum=e6e9f5&sideNums=e6e9f5&dates=7d89b0&stroke=26304f&hide_border=true" alt="Contribution streak" />
